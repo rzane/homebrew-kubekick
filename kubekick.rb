@@ -2,9 +2,9 @@ class Kubekick < Formula
   desc "One-off tasks and encrypted secrets CLI for Kubernetes"
   homepage "https://github.com/rzane/kubekick"
 
-  version "0.1.0"
-  url "https://github.com/rzane/kubekick/releases/download/v0.1.0/kubekick-0.1.0_darwin_x86_64.tar.gz"
-  sha256 "8561e63fd77b062756029cd893515791ea07fc14c0de025edd051834f5adaf15"
+  version "0.1.1"
+  url "https://github.com/rzane/kubekick/releases/download/v0.1.1/kubekick-0.1.1_darwin_x86_64.tar.gz"
+  sha256 "c3ba5bc846c503cd9ad51f404fa1b284acd226d004104090bd16c2a574834076"
 
   def install
     bin.install "kubekick"
